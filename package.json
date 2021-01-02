@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://saymeowartem.github.io/Diplomafrontend/",
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@hookform/resolvers": "^1.1.1",
@@ -27,6 +28,7 @@
     "axios": "^0.21.0",
     "classnames": "^2.2.6",
     "date-fns": "^2.16.1",
+    "gh-pages": "^3.1.0",
     "immer": "^8.0.0",
     "node-sass": "4.14.1",
     "react": "^17.0.1",
@@ -53,8 +55,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
