@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Diplomafrontend/static/css/main.cccd2123.chunk.css",
+    "main.js": "/Diplomafrontend/static/js/main.832d6b62.chunk.js",
+    "main.js.map": "/Diplomafrontend/static/js/main.832d6b62.chunk.js.map",
+    "runtime-main.js": "/Diplomafrontend/static/js/runtime-main.f93521a0.js",
+    "runtime-main.js.map": "/Diplomafrontend/static/js/runtime-main.f93521a0.js.map",
+    "static/css/2.2cf62c3a.chunk.css": "/Diplomafrontend/static/css/2.2cf62c3a.chunk.css",
+    "static/js/2.c09bf4ca.chunk.js": "/Diplomafrontend/static/js/2.c09bf4ca.chunk.js",
+    "static/js/2.c09bf4ca.chunk.js.map": "/Diplomafrontend/static/js/2.c09bf4ca.chunk.js.map",
+    "static/js/3.434c28c9.chunk.js": "/Diplomafrontend/static/js/3.434c28c9.chunk.js",
+    "static/js/3.434c28c9.chunk.js.map": "/Diplomafrontend/static/js/3.434c28c9.chunk.js.map",
+    "index.html": "/Diplomafrontend/index.html",
+    "static/css/2.2cf62c3a.chunk.css.map": "/Diplomafrontend/static/css/2.2cf62c3a.chunk.css.map",
+    "static/css/main.cccd2123.chunk.css.map": "/Diplomafrontend/static/css/main.cccd2123.chunk.css.map",
+    "static/js/2.c09bf4ca.chunk.js.LICENSE.txt": "/Diplomafrontend/static/js/2.c09bf4ca.chunk.js.LICENSE.txt",
+    "static/media/logo.cf915f21.svg": "/Diplomafrontend/static/media/logo.cf915f21.svg",
+    "static/media/more-vertical.44c727bc.svg": "/Diplomafrontend/static/media/more-vertical.44c727bc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f93521a0.js",
+    "static/css/2.2cf62c3a.chunk.css",
+    "static/js/2.c09bf4ca.chunk.js",
+    "static/css/main.cccd2123.chunk.css",
+    "static/js/main.832d6b62.chunk.js"
+  ]
+}
