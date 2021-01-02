@@ -1,0 +1,77 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@hookform/resolvers": "^1.1.1",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@ranyefet/react-file-input": "^1.0.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/antd": "^1.0.0",
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.11",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/redux": "^3.6.0",
+    "@types/yup": "^0.29.9",
+    "@u-wave/react-youtube": "^0.7.2",
+    "antd": "^4.8.6",
+    "axios": "^0.21.0",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.16.1",
+    "immer": "^8.0.0",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.12.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-tsparticles": "^1.18.11",
+    "react-video-js-player": "^1.1.1",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "reset-css": "^5.0.1",
+    "typescript": "^4.0.3",
+    "use-force-update": "^1.0.7",
+    "vanta": "^0.5.21",
+    "victory": "^35.4.4",
+    "videojs-youtube": "^2.6.1",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.31.1"
+  },
+  "proxy": "https://safe-depths-09621.herokuapp.com",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

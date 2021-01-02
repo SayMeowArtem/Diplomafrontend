@@ -1,0 +1,10 @@
+.Logo {
+  display: flex;
+
+  &_text {
+    margin-left: 15px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

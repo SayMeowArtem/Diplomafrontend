@@ -1,0 +1,50 @@
+body .container {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+
+body .Add_new_course {
+  color: #4447e2;
+  position: absolute;
+  bottom: -15px;
+  left: 120px;
+}
+
+body .Search {
+  color: #4447e2;
+  position: absolute;
+  bottom: -15px;
+  left: 150px;
+}
+
+body .MuiButton-containedPrimary {
+  background-color: #1c1c24;
+  border: 1px solid #4447e2;
+  border-radius: 15px;
+}
+body .MuiButton-containedPrimary:hover {
+  background-color: #4447e2;
+}
+
+body .MuiTypography-body1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 26px;
+}
+body .MyPlaylists_header {
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  margin-bottom: 35px;
+  font-family: 'Roboto Condensed';
+  &_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 20px;
+  }
+}
+
+body .MyPlayLists_items {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,67 @@
+body .container {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.Profile_header {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.Profile_photo {
+  position: relative;
+  max-width: 270px;
+  padding: 10px;
+  background: #1c1c24;
+  border-radius: 15px;
+  img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+.Profile_subscribe_btn {
+  margin-top: 10px;
+  width: 270px;
+}
+
+.Profile_discription {
+  margin-top: 10px;
+  &_text {
+    margin-top: 5px;
+    max-width: 270px;
+  }
+}
+
+.Profile_fullnameblock {
+  &_title {
+    margin-top: 10px;
+  }
+  &_name {
+    margin-top: 5px;
+    max-width: 270px;
+  }
+}
+
+.ProfileVisit {
+  display: flex;
+}
+
+.title_playlists {
+  color: #5f5f6e;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 80px;
+  margin-bottom: 6px;
+  margin-top: -5px;
+}
+
+.playlist_items {
+  display: flex;
+  margin-left: 80px;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow-y: auto;
+}

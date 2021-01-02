@@ -1,0 +1,65 @@
+.container {
+  margin: 0px auto;
+  max-width: 1300px;
+}
+
+.video_container {
+  display: flex;
+}
+
+body .video_js {
+  video {
+    border-radius: 10px;
+  }
+}
+
+.video {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  &_data {
+    max-width: 720px;
+    font-size: 16px;
+    &_title {
+      margin-top: 20px;
+
+      display: flex;
+      justify-content: space-between;
+    }
+    &_likes {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+  &_comments {
+    margin-left: 20px;
+  }
+}
+
+body .TextFieldComment {
+  input {
+    width: 100px;
+  }
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+
+  &_Items {
+    height: calc(100vh - 184px);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+.disctiption_title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.comments_column {
+  margin-top: 20px;
+}

@@ -1,0 +1,54 @@
+.Menu {
+  display: flex;
+  &_item {
+    margin-right: 40px;
+
+    &:nth-child(2) {
+      .IconMenu {
+        margin-top: -5px;
+      }
+    }
+  }
+  &_item > a {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    color: #5f5f6f;
+    &:hover {
+      color: #ffffff;
+    }
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+.IconMenu {
+  margin-top: -3px;
+}
+
+.Users {
+  margin-left: 5px;
+}
+
+.IconMenuSub {
+  margin-top: -5px;
+
+  width: 20px;
+  height: 20px;
+}
+
+.IconMenuNew {
+  margin-top: -4px;
+  margin-right: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.IconMenuStat {
+  margin-top: -8px;
+}
+
+.active a {
+  color: #ffffff;
+}

@@ -1,0 +1,42 @@
+.CommentBlock {
+  display: flex;
+  margin-top: 15px;
+  .Avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .InfoBlock {
+    &_header {
+      display: flex;
+      &_NameUser {
+        margin-right: 15px;
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      &_date {
+        color: #aaaaaa;
+        font-size: 14px;
+      }
+    }
+    &_text {
+      margin-left: 10px;
+      margin-top: 3px;
+      font-size: 15px;
+      font-weight: 400;
+      max-width: 470px;
+      word-wrap: break-word;
+      &_multiply {
+        max-width: 200px;
+      }
+    }
+  }
+}

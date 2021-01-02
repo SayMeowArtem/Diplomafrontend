@@ -1,0 +1,47 @@
+@import '~reset-css';
+@import '~antd/dist/antd.css';
+
+body {
+  background-color: #131419;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+}
+
+input[type='file'] {
+  color: transparent;
+}
+
+::-webkit-scrollbar-button {
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ecedee;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #3f51b5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3f51b5;
+}
+
+::-webkit-resizer {
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+.accept {
+  font-size: 28px;
+  text-align: center;
+}
